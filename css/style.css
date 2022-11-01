@@ -1,0 +1,65 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+background-color:  #02918c;
+
+}
+.firststep{
+
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+
+}
+/*firstblog*/
+.firstblog{
+    width: 10%;
+}
+.secondblog{
+    width: 90%;
+}
+
+
+
+
+
+
+
+/*menustyle_secondblog*/
+
+.secondblog ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+a{
+    text-decoration: none;
+}
+
+
+ul li a{
+    color: white;
+    text-transform: uppercase;
+    font-weight: 800;
+    font-size: 12px;
+    display: inline-block;
+    padding: 26px 25px;
+    transition: .7s;
+}
+ul li:hover a{
+    background-color: rgb(99, 104, 94);
+}
+/*imagebottomspaceremove*/
+.firstblog img{
+    display: block;
+}
